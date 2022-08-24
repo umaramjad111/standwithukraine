@@ -1,0 +1,928 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header-bg{
+    background-color: #0057B7;
+   
+    border: none;
+    outline: none;
+}
+.navbar-logo img{
+    width: 60px;
+    height: 60px;
+}
+.active{
+    color: #FFFFFF !important;
+    font-weight: 800;
+}
+.help-btn{
+    font-family: 'Inter', sans-serif;
+    width: 200px;
+    padding: 5px;
+    background-color: 
+    #FFD700;
+    border: none;
+    border-radius: 10px;
+    font-weight: 
+    500;
+}
+.help-btn:hover{
+    background-color: 
+    #EAC500
+    ;
+  
+    transition: 0.3s;
+}
+.nav-item .nav-link{
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+}
+.nav-item .nav-link.active{
+    position: relative;
+}
+.nav-item .nav-link.active::before {
+    content: "";
+    position: absolute;
+    left: 8px;
+    bottom: 1px;
+    height: 2px;
+    width: 30%;
+    background-color: #fff;
+    
+}
+
+.nav-item .nav-link:hover{
+    font-weight: bold;
+   
+}
+.ukrainians{
+    width: 100%;
+    position: relative;
+}
+
+.ukrainians::after{
+    position: absolute;
+    content: "";
+    background-color: #0057B7;
+    border: none;
+    outline: none;
+    top: 0;
+    width: 100%;
+    height: 75%;
+    z-index: -1;
+}
+
+.ukrainians p{
+    font-size: 40px;
+    padding-top: 15px;
+    font-weight: 700;
+    text-align: center;
+    color: #FFFFFF;
+}
+.ukrainians strong{
+    color: #FFD700;
+    margin-right: 5px;
+}
+.ukrainians .ukranians-img{
+    width: 50%;
+    margin: 50px auto 0;
+  
+}
+.ukranians-img img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.join-hands{
+   padding-top: 60px;
+   width: 100%;
+   text-align: center;
+}
+.join-content{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.join-content h1{
+    font-family: 'Popins', sans-serif;
+    font-weight: 
+    800;
+    text-align: left;
+    font-size: 
+    34px
+    ;
+}
+.join-content h3{
+    font-family: 'Popins', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.join-content p{
+    color: #6E6E6C;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;  
+    margin-top: 15px;
+    
+}
+.join-content img{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+.about-us{
+    background-color: #F4F7FF;
+    padding: 50px;
+    margin-top: 20px;
+}
+
+.about-us-content h1{
+    font-family: 'Popins', sans-serif;
+    font-weight: 800;
+    font-size: 35px;  
+}
+.about-us-content h3{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 10px;
+    color: #22211F;
+}
+.about-us-content p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: 
+    #000000;
+    margin-top: 20px;
+}
+.about-us-content img{
+    width: 50%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.social-media{
+    display: flex;
+    gap: 10px;
+}
+.social-media img{
+    width: 30px;
+
+}
+.food-slider{
+    border-radius: 20px;
+    /* box-shadow: 20px 35px 70px 0px rgba(0, 0, 0, 0.04); */
+    box-shadow: 5px 8px 7px -3px rgb(0 0 0 / 4%);
+}
+.food-slider .img-box{
+    border-radius: 10px;
+}
+.food-slider img{
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.slick-slider{
+    height: 320px !important;
+}
+.slick-slider .slick-list{
+    height: inherit !important;
+}
+.food-access-points h1{
+    font-family: 'Popins', sans-serif;
+    font-weight: 800;
+    font-size: 35px;
+    color: 
+    #22211F;
+}
+.food-access-points p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #6E6E6C;
+}
+.food-points-btn{
+    /* margin-top: -240px; */
+    text-align: center;
+}
+
+.food-points-btn .btn-food{
+    width: 200px;
+    background-color: #FFD700;
+    border: none;
+    color: #22211F;
+    border-radius: 10px;
+}
+.food-points-btn .btn-food:hover{
+    background-color: #EAC500;
+    transition: 0.3s;
+}
+
+.shelter-access-points h1{
+    font-family: 'Popins', sans-serif;
+    font-weight: 800;
+    font-size: 35px;
+    margin-top: -45px;
+}
+.shelter-access-points p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #6E6E6C;
+}
+.soliderity-ukranian{
+    margin-top: 440px;
+    background-color: #F4F7FF;
+    
+}
+
+.soliderity-content h1{
+    font-family: 'Popins', sans-serif;
+    font-weight: 800;
+    font-size: 35px;
+}
+.soliderity-content p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #6E6E6C;
+}
+.soliderity-content .sub-content{
+    /* padding: 80px 120px 20px 120px; */
+    padding: 85px;
+}
+.help-ukranian-content h1{
+    font-family: 'Popins', sans-serif;
+    font-weight: 800;
+    font-size: 35px;
+    color: #22211F;
+}
+.help-ukranian-content p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #6E6E6C;
+}
+.cards-help-ukraine img{
+    width: 40px;
+    height: 40px;
+}
+.cards-help-ukraine .card{
+    background-color: #FFFFFF;
+    border: 1px solid 
+    #F0F0F0;
+    border-radius: 12px;
+    box-shadow: 20px 35px 70px 0px rgba(0, 0, 0, 0.04);
+
+    
+}
+.donate-card{
+    padding: 20px;
+}
+.volunteer-card{
+    padding: 20px;
+    margin-left: 15px;
+}
+.host-card{
+    padding: 20px;
+
+    margin-top: 15px;
+}
+.hire-card{
+    padding: 20px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.cards-help-ukraine h6{
+    font-family: 'Popins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 12px;
+    color: 
+    #22211F;
+}
+.cards-help-ukraine p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #6E6E6C;
+}
+.cards-help-ukraine a{
+    text-decoration: none;
+    color: #0057B7;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+}
+.soliderity-content img{
+    
+    display: block;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.soliderity-content .count{
+    display: flex;
+    justify-content: space-between;
+}
+.count h5{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    color: #22211F;
+}
+.count p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #22211F;
+}
+.soliderity-content .contact-us button{
+    background-color: #FFD700;
+    border: none;
+   width: 190px;
+   padding: 7px;
+   border-radius: 8px;
+   margin-top: 14px;
+   
+}
+.soliderity-content .contact-us button:hover{
+    background-color: #EAC500;
+    transition: 0.3s;
+}
+.email-subscribe{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.email-subsribe-content{
+    background-color: #F5F8FF;
+    width: 70%;
+    padding: 80px;
+    position: relative;
+    border-radius: 30px;
+}
+.email-subsribe-content h1{
+    font-family: 'Popins', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    text-align: center;
+}
+.footer li{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+ 
+}
+.footer li a{
+    text-decoration: none;
+    margin-top: 10px;
+    color: #22211F;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+.footer h5{
+    font-family: 'Popins', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+.footer hr{
+  
+   background-color: rgb(0, 0, 0);
+   border: 1px solid rgb(0, 0, 0);
+}
+.footer-content{
+    padding: 20px 60px 20px 60px;
+}
+.footer h6{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+.contact-form .form{
+    position: absolute;
+    top: 25%;
+    right: 15%;
+    padding: 30px 60px 30px 60px;
+}
+.contact-form .form .label-div{
+    display: flex;
+}
+.contact-form .main-img{
+    width: 100%;
+    position: relative;
+}
+.contact-form .contact-info{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.menu-icon{
+    display: none;
+}
+.contact-info img{
+    width: 40px !important;
+
+}
+.contact-form .card{
+    background-color: 
+    #F4F7FF;
+    border: none;
+    border-radius: 5px;
+}
+.contact-form input{
+    background-color: #FFFFFF;
+    border: none;
+    outline: none;
+    margin-top: 5px;
+}
+.contact-form label{
+    font-family: 'Popins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #22211F;   
+}
+.contact-form .email{
+    display: flex;
+    background-color: white;
+    align-items: center;
+    padding: 7px 5px 7px 25px;
+    width: 100%;
+    border-radius: 15px;
+    
+}
+.news .content{
+    display: flex;
+    justify-content: center;
+}
+.contact-form .submit-btn{
+    display: flex;
+    justify-content: center;
+}
+.contact-form .form h5{
+    font-family: 'Popins', sans-serif;
+    font-weight: 600;
+    font-size: 30px; 
+}
+.contact-form .form p{
+    font-family: 'Popins', sans-serif;
+    font-weight: 400;
+    font-size: 18px; 
+    color: #6E6E6C;   
+}
+
+.contact-form .submit-btn button{
+    margin-top: 20px;
+    background-color: #FFD700;
+    border: none;
+    padding: 5px;
+    color: #22211F;
+    width: 200px;
+    border-radius: 10px;
+}
+.contact-form .email input{
+    width: 100%;
+}
+.contact-form .news{
+    padding: 30px;
+    margin-top: 170px;
+    background-color: #F4F7FF;
+    border-radius: 20px;
+}
+.contact-form .news h6{
+    font-family: 'Popins', sans-serif;
+    font-weight: 600;
+    font-size: 30px; 
+    margin-bottom: 0;
+   
+    color: 
+    #0057B7;
+}
+.email-subs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-form .news p{
+    margin-bottom: 0;
+}
+.contact-form .email button{
+    background-color: 
+    #0057B7;
+    border-radius: 10px;
+}
+.contact-form textarea{
+    background-color: #FFFFFF;
+    border: none;
+    outline: none;
+    margin-top: 5px;
+}
+
+.contact-form .main-img img{
+    display: block;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.email-subsribe-content .msg-img{
+    position: absolute;
+    top: -20px;
+    right: -30px;
+}
+.email-subsribe-content .email-div{
+    display: flex;
+    align-items: center ;
+    
+   
+}
+.email-div button{
+   
+    margin-left: 10px;
+    background-color: #FFD700;
+    color: #22211F;
+    border-radius: 10px;
+    padding: 9px;
+    width: 150px;
+    border: none;
+}
+.email-subsribe-content .email-input{
+    display: flex;
+   align-items: center;
+   background-color: white;
+   padding: 10px;
+   border-radius: 10px;
+   width: 70%;
+   margin-top: 20px;
+}
+.email-subsribe-content .email-input input{
+    border: none;
+    outline: none;
+    margin-left: 10px;
+}
+.arrow .angle-right {
+  
+    width: 5%;
+    height: 5vh;
+    position: absolute;
+    left: 94%;
+    bottom: 103%;
+   
+
+  }
+  .rarrow .angle-left {
+    width: 5%;
+    height: 5vh;
+    position: absolute;
+    left: 91%;
+    bottom: 103%;
+    
+  }
+   .footer{
+    background-color: 
+    #FFD700;
+    padding: 20px 60px 0px 60px
+   }
+  .angle-left img {
+    width: 30px;
+    height: 30px;
+  }
+  .angle-right img{
+    width: 30px;
+    height: 30px; 
+  }
+  .food-slider .des{
+    padding: 13px 30px 2px 20px;
+  }
+  .food-slider h1{
+    font-family: 'Popins', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 5px;
+   
+  }
+  .food-slider h3{
+    font-family: 'Popins', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 5px;
+   
+  }
+.food-slider .location{
+    display: flex;
+   
+}
+.food-slider .location img{
+    width: 15px;
+    height: 15px;
+    
+}
+.food-slider .location p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+   color: #000000;
+   margin-left: 5px;
+}
+.slick-initialized .slick-slide {
+    display: block;
+    margin-left: 0.5px;
+}
+.help-btn-div{
+  position: absolute;
+  right: 0;
+}
+.help-ukranian-content .pad-ukraine{
+    padding: 40px;
+    display: flex;
+    align-items: center;
+   
+}
+.contact-us{
+
+}
+.main-news-div{
+    padding: 40px;
+    margin-top: 20px;
+}
+.nav-links-margin{
+    margin-left: 30px;
+    
+}
+@media screen and (max-width: 700px) {
+   .contact-form .form{
+    position: relative;
+    top: 0%;
+    right: 0%;
+    padding: 22px;
+   }
+   .help-btn-div{
+    position: relative;
+    text-align: right;
+  }
+   .contact-form .news{
+   
+    margin-top: 0px;
+    
+}
+.ukrainians p{
+    font-size: 18px;
+    padding-top: 30px;
+}
+
+.navbar-logo img{
+    width: 60px;
+    height: 60px;
+}
+.join-content h1{
+    font-size: 24px;
+    text-align: center;
+}
+.join-content p{
+    font-size: 14px;
+    text-align: center !important;
+}
+.email-subsribe-content{
+    width: 100%;
+    padding: 40px;
+}
+.email-subsribe-content h1{
+    font-size: 20px !important;
+}
+.email-subsribe-content .email-div{
+    display: flex;
+    flex-direction: column;
+}
+.email-subsribe-content .email-input {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100% !important;
+    margin-top: 20px;
+}
+.about-us{
+    padding: 30px !important;
+}
+.about-us-content h1{
+    font-size: 24px !important;
+}
+.about-us-content h3{
+    font-size: 18px !important;
+}
+.about-us-content p{
+    font-size: 16px !important;
+}
+.rarrow .angle-left{
+    position: absolute !important;
+    left: 31% !important;
+    padding-top: 5px !important;
+   
+}
+.rarrow .angle-left img{
+    width: 40px !important;
+   height: 40px !important;
+  
+}
+.arrow .angle-right img{
+    width: 40px !important;
+   height: 40px !important;
+}
+.arrow .angle-right{
+    position: absolute !important;
+    left: 53% !important;
+   padding-top: 5px !important;
+}
+.shelter-access-points h1{
+    font-size: 24px;
+}
+.shelter-access-points p{
+    font-size: 18px;
+}
+.soliderity-content .sub-content{
+    padding: 35px;
+}
+.count h5{
+    font-size: 20px;
+}
+.count p{
+    font-size: 16px !important;
+}
+.soliderity-content h1{
+    font-size: 24px;
+}
+.soliderity-content p{
+    font-size: 18px;
+}
+.food-access-points h1{
+    font-size: 24px !important;
+}
+.ukrainians .ukranians-img{
+    width: 75% !important;
+}
+.nav-item .nav-link.active::before {
+    content: "";
+    position: absolute;
+    left: 3px;
+    bottom: 1px;
+    height: 2px;
+    width: 5%;
+    background-color: #fff;
+    
+}
+.food-access-points h1{
+    font-size: 24px !important;
+}
+.food-access-points p{
+    font-size: 16px !important;
+}
+.menu-icon{
+    display: block;
+}
+
+.header-bg{
+    padding: 4px;
+}
+.help-ukranian-content h1{
+    font-size: 24px;
+}
+help-ukranian-content p{
+    font-size: 18px !important
+    ;
+}
+.help-ukranian-content .pad-ukraine{
+    padding: 0px;
+}
+.donate-card{
+    margin-top: 15px;
+}
+.volunteer-card{
+    margin-top: 15px;
+    margin-left: 0px;
+}
+.hire-card{
+    margin-left: 0px;
+}.footer {
+    background-color: #FFD700;
+    padding: 0px;
+}
+.contact-us{
+    text-align: center;
+}
+.main-news-div{
+    padding: 20px;
+    margin-top: 10px;
+}
+.nav-links-margin{
+    margin-left: 22px;
+    margin-top: 10px;
+    
+}
+  }
+
+  @media screen and (max-width: 900px) {
+
+    .contact-form .form{
+        position: relative;
+        top: 0%;
+        right: 0%;
+        padding: 22px;
+       }
+       .menu-icon{
+        display: block;
+    }
+    .join-content h1{
+        text-align: center;
+    }
+    .join-content p{
+        text-align: center !important;
+    }
+    .help-btn-div {
+        position: relative;
+        text-align: right;
+    }
+    .nav-item .nav-link.active::before {
+        content: "";
+        position: absolute;
+        left: 3px;
+        bottom: 1px;
+        height: 2px;
+        width: 4%;
+        background-color: #fff;
+        
+    }
+       .contact-form .news{
+    
+        margin-top: 0px;
+       
+    }
+  }
+  @media screen and (max-width: 1000px) {
+    .contact-form .form{
+        position: relative;
+        top: 0%;
+        right: 0%;
+        padding: 22px;
+       }
+       .join-content h1{
+        text-align: center;
+    }
+    .join-content p{
+        text-align: center !important;
+    }
+       .contact-form .news{
+    
+        margin-top: 0px;
+       
+    }
+    .menu-icon{
+        display: block;
+    }
+    .help-btn-div {
+        position: relative;
+        text-align: right;
+    }
+    .nav-item .nav-link.active::before {
+        content: "";
+        position: absolute;
+        left: 3px;
+        bottom: 1px;
+        height: 2px;
+        width: 4%;
+        background-color: #fff;
+        
+    }
+  }
+  @media screen and (max-width: 1100px) {
+    .contact-form .form{
+        position: relative;
+        top: 0%;
+        right: 0%;
+        padding: 22px;
+        width: 100%;
+       }
+       .join-content h1{
+        text-align: center;
+    }
+    .join-content p{
+        text-align: center !important;
+    }
+       .contact-form .news{
+    
+        margin-top: 0px;
+       
+    }
+  }
+
+  
+
