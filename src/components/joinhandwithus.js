@@ -7,14 +7,14 @@ export default function Joinhandwithus() {
   useEffect(() => {
     AOS.init({
       offset: 200,
-      duration: 800,
+      duration: 400,
       easing: "ease-in-sine",
-      delay: 100,
+      delay: 200,
     });
   }, []);
   return (
     <>
-      <div className="row join-content" data-aos="flip-down">
+      <div className="row join-content" data-aos="fade-up">
         <div className="col-lg-3 col-sm-12">
           <h1>
             Join <br /> Hands <br /> with us

@@ -9,10 +9,10 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import {
-  Foodpointone,
-  Foodpointtwo,
-  Foodpointthree,
-  Foodpointfour,
+  Firstfoodimg,
+  Secondfoodimg,
+  Thirdfoodimg,
+  Fourthfoodimg,
 } from "../shared/image";
 export default function Foodaccesspoints() {
   useEffect(() => {
@@ -57,9 +57,15 @@ export default function Foodaccesspoints() {
     prevArrow: <SamplePrevArrow />,
     responsive: [
       {
-        breakpoint: 992,
+        breakpoint: 700,
         settings: {
           slidesToShow: 1,
+        },
+      },
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 3,
         },
       },
     ],
@@ -67,32 +73,27 @@ export default function Foodaccesspoints() {
 
   const foodaccessarr = [
     {
-      image:
-        "https://cdn.pixabay.com/photo/2014/04/22/02/56/pizza-329523_1280.jpg",
+      image: Firstfoodimg,
       title: "UNICEF Fund for supporting Ukrainian children",
       location: "Chisinau, Moldova",
     },
     {
-      image:
-        "https://cdn.pixabay.com/photo/2014/04/22/02/56/pizza-329523_1280.jpg",
-      title: "UNICEF Fund for supporting Ukrainian children",
-      location: "Chisinau, Moldova",
+      image: Fourthfoodimg,
+      title: "World Food Health and Security society",
+      location: "Odesa, Ukraine",
     },
     {
-      image:
-        "https://cdn.pixabay.com/photo/2014/04/22/02/56/pizza-329523_1280.jpg",
-      title: "UNICEF Fund for supporting Ukrainian children",
-      location: "Chisinau, Moldova",
+      image: Thirdfoodimg,
+      title: "Non-Profit Food Donation club",
+      location: "Cherkasy, Ukraine",
     },
     {
-      image:
-        "https://cdn.pixabay.com/photo/2014/04/22/02/56/pizza-329523_1280.jpg",
-      title: "UNICEF Fund for supporting Ukrainian children",
-      location: "Chisinau, Moldova",
+      image: Secondfoodimg,
+      title: "WHO Food Organization Society",
+      location: "Kyiv, Ukraine",
     },
     {
-      image:
-        "https://cdn.pixabay.com/photo/2014/04/22/02/56/pizza-329523_1280.jpg",
+      image: Firstfoodimg,
       title: "UNICEF Fund for supporting Ukrainian children",
       location: "Chisinau, Moldova",
     },
@@ -103,7 +104,7 @@ export default function Foodaccesspoints() {
       <Slider {...settings}>
         {foodaccessarr.map((item) => (
           <div className="p-2">
-            <div className="food-slider" data-aos="zoom-in">
+            <div className="food-slider" data-aos="fade-up">
               <div className="img-box">
                 <img src={item.image} alt="" />
               </div>

@@ -7,15 +7,15 @@ export default function Soliderityukranian() {
   useEffect(() => {
     AOS.init({
       offset: 200,
-      duration: 800,
+      duration: 400,
       easing: "ease-in-sine",
-      delay: 100,
+      delay: 200,
     });
   }, []);
   return (
     <div className="container-fluid g-0">
       <div className="row soliderity-content g-0">
-        <div className="col-lg-7 col-sm-12 sub-content" data-aos="zoom-in">
+        <div className="col-lg-7 col-sm-12 sub-content" data-aos="fade-up">
           <h1>Showing Soliderity with Ukrainian</h1>
           <p>
             Every day, more and more families and children need medical

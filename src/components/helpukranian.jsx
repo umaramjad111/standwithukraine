@@ -12,15 +12,15 @@ export default function Helpukranian() {
   useEffect(() => {
     AOS.init({
       offset: 200,
-      duration: 800,
+      duration: 400,
       easing: "ease-in-sine",
-      delay: 100,
+      delay: 200,
     });
   }, []);
   return (
     <div className="container-fluid g-0 help-ukranian-content">
       <div className="row g-0">
-        <div className="col-lg-6 col-sm-12 pad-ukraine" data-aos="zoom-in">
+        <div className="col-lg-6 col-sm-12 pad-ukraine" data-aos="fade-up">
           <div>
             <h1>
               Ways you can help <br /> Ukraine

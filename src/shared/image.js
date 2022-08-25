@@ -29,6 +29,10 @@ import Foodpointone from "../assets/images/foodaccesspointone.svg";
 import Foodpointtwo from "../assets/images/foodaccesspointtwo.svg";
 import Foodpointthree from "../assets/images/foodaccesspointthree.svg";
 import Foodpointfour from "../assets/images/foodaccesspointfour.svg";
+import Firstfoodimg from "../assets/images/firrstfoodimg.png";
+import Secondfoodimg from "../assets/images/secondfoodimg.png";
+import Thirdfoodimg from "../assets/images/thirdfoodimg.png";
+import Fourthfoodimg from "../assets/images/fourthfoodimg.png";
 export {
   Ukrainelogo,
   Ukraniansimg,
@@ -61,4 +65,8 @@ export {
   Foodpointtwo,
   Foodpointthree,
   Foodpointfour,
+  Firstfoodimg,
+  Secondfoodimg,
+  Thirdfoodimg,
+  Fourthfoodimg,
 };
