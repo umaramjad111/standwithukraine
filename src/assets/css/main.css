@@ -743,7 +743,7 @@
   @media screen and (max-width: 900px) {
 
     .contact-form .form{
-        position: relative !important;
+        position: absolute !important;
         top: 10% !important; 
         right: 10% !important;
         width: 50% !important;
@@ -795,7 +795,7 @@
     }
        .contact-form .news{
     
-        margin-top: 200px !important;
+        margin-top: 100px !important;
        
     }
   }
