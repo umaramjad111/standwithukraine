@@ -57,9 +57,15 @@ export default function Foodaccesspoints() {
     prevArrow: <SamplePrevArrow />,
     responsive: [
       {
-        breakpoint: 700,
+        breakpoint: 500,
         settings: {
           slidesToShow: 1,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
         },
       },
       {
@@ -100,7 +106,7 @@ export default function Foodaccesspoints() {
   ];
 
   return (
-    <div className="container p-5">
+    <div className="container food-main-padding">
       <Slider {...settings}>
         {foodaccessarr.map((item) => (
           <div className="p-2">
