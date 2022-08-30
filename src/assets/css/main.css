@@ -662,178 +662,84 @@
     margin-left: 30px;
     
 }
-@media screen and (max-width: 700px) {
-   .contact-form .form{
-    position: relative !important;
-    top: 0% !important;
-    right: 0% !important;
-    padding: 22px;
-   }
-   .help-btn-div{
-    position: relative;
-    text-align: right;
+
+
+
+ 
+  @media screen and (max-width: 1100px) {
+    .contact-form .form{
+        position: absolute !important;
+        top: 15%;
+        right: 10%;
+        padding: 22px;
+        width: 50%;
+       }
+       .join-content h1{
+        text-align: center;
+    }
+    .join-content p{
+        text-align: center !important;
+    }
+       .contact-form .news{
+    
+        margin-top: 146px !important;
+       
+    }
   }
-   .contact-form .news{
-   
-    margin-top: 0px;
+  @media screen and (max-width: 1000px) {
+    .contact-form .form{
+        position: absolute !important;
+        top: 15% !important;
+        right: 10% !important;
+        padding: 22px !important;
+        width: 50% !important;
+       }
+       .volunteer-card {
+        padding: 20px;
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+    .hire-card {
+        padding: 20px;
+        margin-top: 15px;
+        margin-left: 0px;
+    }
+       .rarrow .angle-left {
+        width: 5% !important;
+        height: 5vh !important;
+        position: absolute !important;
+        left: 89% !important;
+        bottom: 103% !important;
+    }
+       .join-content h1{
+        text-align: center;
+    }
+    .join-content p{
+        text-align: center !important;
+    }
+       .contact-form .news{
     
-}
-.ukrainians p{
-    font-size: 18px;
-    padding-top: 30px;
-}
-
-.navbar-logo img{
-    width: 60px;
-    height: 60px;
-}
-.join-content h1{
-    font-size: 24px;
-    text-align: center;
-}
-.join-content p{
-    font-size: 14px;
-    text-align: center !important;
-}
-.email-subsribe-content{
-    width: 100%;
-    padding: 40px;
-}
-.email-subsribe-content h1{
-    font-size: 20px !important;
-}
-.email-subsribe-content .email-div{
-    display: flex;
-    flex-direction: column;
-}
-.email-subsribe-content .email-input {
-    display: flex;
-    align-items: center;
-    background-color: white;
-    padding: 10px;
-    border-radius: 10px;
-    width: 100% !important;
-    margin-top: 20px;
-}
-.about-us{
-    padding: 30px !important;
-}
-.about-us-content h1{
-    font-size: 24px !important;
-}
-.about-us-content h3{
-    font-size: 18px !important;
-}
-.about-us-content p{
-    font-size: 16px !important;
-}
-.rarrow .angle-left{
-    position: absolute !important;
-    left: 31% !important;
-    padding-top: 5px !important;
-   
-}
-.rarrow .angle-left img{
-    width: 40px !important;
-   height: 40px !important;
-  
-}
-.arrow .angle-right img{
-    width: 40px !important;
-   height: 40px !important;
-}
-.arrow .angle-right{
-    position: absolute !important;
-    left: 53% !important;
-   padding-top: 5px !important;
-}
-.shelter-access-points h1{
-    font-size: 24px;
-}
-.shelter-access-points p{
-    font-size: 18px;
-}
-.soliderity-content .sub-content{
-    padding: 35px;
-}
-.count h5{
-    font-size: 20px;
-}
-.count p{
-    font-size: 16px !important;
-}
-.soliderity-content h1{
-    font-size: 24px;
-}
-.soliderity-content p{
-    font-size: 18px;
-}
-.food-access-points h1{
-    font-size: 24px !important;
-}
-.ukrainians .ukranians-img{
-    width: 75% !important;
-}
-.nav-item .nav-link.active::before {
-    content: "";
-    position: absolute;
-    left: 3px;
-    bottom: 1px;
-    height: 2px;
-    width: 5%;
-    background-color: #fff;
-    
-}
-.food-access-points h1{
-    font-size: 24px !important;
-}
-.food-access-points p{
-    font-size: 16px !important;
-}
-.menu-icon{
-    display: block;
-}
-
-.header-bg{
-    padding: 4px;
-}
-.help-ukranian-content h1{
-    font-size: 24px;
-}
-help-ukranian-content p{
-    font-size: 18px !important
-    ;
-}
-.help-ukranian-content .pad-ukraine{
-    padding: 0px;
-}
-.donate-card{
-    margin-top: 15px;
-}
-.volunteer-card{
-    margin-top: 15px;
-    margin-left: 0px;
-}
-.hire-card{
-    margin-left: 0px;
-}.footer {
-    background-color: #FFD700;
-    padding: 0px;
-}
-.contact-us{
-    text-align: center;
-}
-.main-news-div{
-    padding: 20px;
-    margin-top: 10px;
-}
-.nav-links-margin{
-    margin-left: 22px;
-    margin-top: 10px;
-    
-}
+        margin-top: 150px !important;
+       
+    }
+    .menu-icon{
+        display: block;
+    }
+    .help-btn-div {
+        position: relative;
+        text-align: right;
+    }
+    .nav-item .nav-link.active::before {
+        content: "";
+        position: absolute;
+        left: 3px;
+        bottom: 1px;
+        height: 2px;
+        width: 4%;
+        background-color: #fff;
+        
+    }
   }
-
   @media screen and (max-width: 900px) {
 
     .contact-form .form{
@@ -843,7 +749,19 @@ help-ukranian-content p{
         width: 50% !important;
       
     }
+    .volunteer-card {
+        padding: 20px;
+        margin-left: 0px;
+        margin-top: 15px;
+    }
        
+    .hire-card {
+        padding: 20px;
+        margin-top: 15px;
+        margin-left: 0px;
+    }
+    
+    
 .rarrow .angle-left {
     width: 5% !important;
     height: 5vh !important;
@@ -881,72 +799,177 @@ help-ukranian-content p{
        
     }
   }
-  @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 700px) {
     .contact-form .form{
-        position: absolute !important;
-        top: 15% !important;
-        right: 10% !important;
-        padding: 22px !important;
-        width: 50% !important;
-       }
-       .rarrow .angle-left {
-        width: 5% !important;
-        height: 5vh !important;
-        position: absolute !important;
-        left: 89% !important;
-        bottom: 103% !important;
+     position: relative !important;
+     top: 0% !important;
+     right: 0% !important;
+     padding: 22px;
     }
-       .join-content h1{
-        text-align: center;
-    }
-    .join-content p{
-        text-align: center !important;
-    }
-       .contact-form .news{
+    .help-btn-div{
+     position: relative;
+     text-align: right;
+   }
+    .contact-form .news{
     
-        margin-top: 150px !important;
-       
-    }
-    .menu-icon{
-        display: block;
-    }
-    .help-btn-div {
-        position: relative;
-        text-align: right;
-    }
-    .nav-item .nav-link.active::before {
-        content: "";
-        position: absolute;
-        left: 3px;
-        bottom: 1px;
-        height: 2px;
-        width: 4%;
-        background-color: #fff;
-        
-    }
-  }
-  @media screen and (max-width: 1100px) {
-    .contact-form .form{
-        position: absolute !important;
-        top: 15%;
-        right: 10%;
-        padding: 22px;
-        width: 50%;
-       }
-       .join-content h1{
-        text-align: center;
-    }
-    .join-content p{
-        text-align: center !important;
-    }
-       .contact-form .news{
-    
-        margin-top: 146px !important;
-       
-    }
-  }
-
+     margin-top: 0px;
+     
+ }
+ .ukrainians p{
+     font-size: 18px;
+     padding-top: 30px;
+ }
  
+ .navbar-logo img{
+     width: 60px;
+     height: 60px;
+ }
+ .join-content h1{
+     font-size: 24px;
+     text-align: center;
+ }
+ .join-content p{
+     font-size: 14px;
+     text-align: center !important;
+ }
+ .email-subsribe-content{
+     width: 100%;
+     padding: 40px;
+ }
+ .email-subsribe-content h1{
+     font-size: 20px !important;
+ }
+ .email-subsribe-content .email-div{
+     display: flex;
+     flex-direction: column;
+ }
+ .email-subsribe-content .email-input {
+     display: flex;
+     align-items: center;
+     background-color: white;
+     padding: 10px;
+     border-radius: 10px;
+     width: 100% !important;
+     margin-top: 20px;
+ }
+ .about-us{
+     padding: 30px !important;
+ }
+ .about-us-content h1{
+     font-size: 24px !important;
+ }
+ .about-us-content h3{
+     font-size: 18px !important;
+ }
+ .about-us-content p{
+     font-size: 16px !important;
+ }
+ .rarrow .angle-left{
+     position: absolute !important;
+     left: 31% !important;
+     padding-top: 5px !important;
+    
+ }
+ .rarrow .angle-left img{
+     width: 40px !important;
+    height: 40px !important;
+   
+ }
+ .arrow .angle-right img{
+     width: 40px !important;
+    height: 40px !important;
+ }
+ .arrow .angle-right{
+     position: absolute !important;
+     left: 53% !important;
+    padding-top: 5px !important;
+ }
+ .shelter-access-points h1{
+     font-size: 24px;
+ }
+ .shelter-access-points p{
+     font-size: 18px;
+ }
+ .soliderity-content .sub-content{
+     padding: 35px;
+ }
+ .count h5{
+     font-size: 20px;
+ }
+ .count p{
+     font-size: 16px !important;
+ }
+ .soliderity-content h1{
+     font-size: 24px;
+ }
+ .soliderity-content p{
+     font-size: 18px;
+ }
+ .food-access-points h1{
+     font-size: 24px !important;
+ }
+ .ukrainians .ukranians-img{
+     width: 75% !important;
+ }
+ .nav-item .nav-link.active::before {
+     content: "";
+     position: absolute;
+     left: 3px;
+     bottom: 1px;
+     height: 2px;
+     width: 5%;
+     background-color: #fff;
+     
+ }
+ .food-access-points h1{
+     font-size: 24px !important;
+ }
+ .food-access-points p{
+     font-size: 16px !important;
+ }
+ .menu-icon{
+     display: block;
+ }
+ 
+ .header-bg{
+     padding: 4px;
+ }
+ .help-ukranian-content h1{
+     font-size: 24px;
+ }
+ help-ukranian-content p{
+     font-size: 18px !important
+     ;
+ }
+ .help-ukranian-content .pad-ukraine{
+     padding: 0px;
+ }
+ .donate-card{
+     margin-top: 15px;
+ }
+ .volunteer-card{
+     margin-top: 15px;
+     margin-left: 0px;
+ }
+ .hire-card{
+     margin-left: 0px;
+ }.footer {
+     background-color: #FFD700;
+     padding: 0px;
+ }
+ .contact-us{
+     text-align: center;
+ }
+ .main-news-div{
+     padding: 20px;
+     margin-top: 10px;
+ }
+ .nav-links-margin{
+     margin-left: 22px;
+     margin-top: 10px;
+     
+ }
+   }
 
   @media screen and (max-width: 600px) {
     .contact-form .form{
